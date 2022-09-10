@@ -1,0 +1,12 @@
+.nameapp h1{
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.nameapp{
+    height: 62px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 0px 15px 40px;
+}

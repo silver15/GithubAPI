@@ -1,12 +1,13 @@
-
 import './assets/styles/custom.scss';
-import "./App.css";
+import './App.css';
+import Routes from 'Routes';
 
 function App() {
-  return(
-  <h1>Hello word</h1>
-
-  )
+  return (
+    <>
+      <Routes />
+    </>
+  );
 }
 
 export default App;
