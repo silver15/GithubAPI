@@ -1,16 +1,12 @@
 .card-conteiner{
     padding: 5px;
-    border: 1px solid red;
+
 }
 
-.card-home{
-    border: 1px solid black;
-    
-    
-}
+
 
 .card-descricao{
-    border: 1px solid red;
+
     display: flex;
     flex-direction: column;
     padding-top: 15px;
@@ -23,6 +19,10 @@
     color: #7E7E7E;
 }
 
-.btn{
-    border: 1px solid yellow;
+
+.img-container{
+    display: flex;
+    height: 150px;
+    width: 150px;
+   
 }

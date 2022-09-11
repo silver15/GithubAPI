@@ -70,12 +70,13 @@ function Before() {
         </form>
         {profile && (
           <>
-            <ResultCard title="Perfil" description={profile.url} />
-            <ResultCard title="Nome" description={profile.name} />
-            <ResultCard title="Localidade" description={profile.location} />
-            <ResultCard title="Quantidade" description={profile.followers} />
-            <ResultCard title="imagem" description={profile.avatar_url} />
-          </>
+            <div className="img-container"><img src={profile.avatar_url} alt="nome"/> </div>
+            
+            <ResultCard title="Perfil: " description={profile.url} />
+            <ResultCard title="Nome: " description={profile.name} />
+            <ResultCard title="Localidade: " description={profile.location} />
+            <ResultCard title="Quantidade: " description={profile.followers} />
+           </>
         )}
       </div>
     </div>
